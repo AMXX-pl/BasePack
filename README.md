@@ -23,7 +23,7 @@ If you want to enabled those modules check **cstrike/addons/metamod/plugins.ini*
 - [ReSemiclip](http://www.dedicated-server.ru/vbb/showthread.php?t=26898) ([2.3.9](http://www.dedicated-server.ru/vbb/attachment.php?attachmentid=10814&d=1486952325))
 - [WHBlocker](http://aghl.ru/forum/viewtopic.php?f=19&t=1704) ([1.5.696](http://aghl.ru/forum/download/file.php?id=4272&sid=4c75c9b221b1bd9a1e35d1eb46544e6b))
 
-# Credits
+## Credits
 
 - Arkshine (Vincent Herbert)
 - DS (Scott Ehlert)
