@@ -1,0 +1,10 @@
+/*
+ * Settings semiclip to map
+ *
+ * Example name configuration: .../semiclip/maps/prefix_*.ini
+ * Example settings:
+ *
+*/
+
+time 3
+noteamflash 0
