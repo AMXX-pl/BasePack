@@ -4,16 +4,21 @@ Base pack for Counter-Strike 1.6 servers with latest AMX Mod X, ReHLDS, ReGameDL
 
 It is dedicated for Linux based servers.
 
+### Instalation
+1. Download latest [release](https://github.com/TheDoctor0/BasePack/releases/download/latest/base_pack.zip).
+2. Upload all files to your server.
+3. Change *SteamIdHashSalt* to random generated string on the line **98** in **reunion.cfg**.
+
 ## Content
 
 ### Main
-- [AMX Mod X](https://github.com/alliedmodders/amxmodx) ([1.9.0.5427](https://www.amxmodx.org/amxxdrop/1.9/amxmodx-1.9.0-git5247-base-linux.tar.gz))
-- [ReHLDS](https://github.com/dreamstalker/rehlds/) ([3.4.0.671](http://nexus.rehlds.org/nexus/content/repositories/rehlds-dev/rehlds/rehlds/3.4.0.671-dev/rehlds-3.4.0.671-dev.zip))
-- [ReGameDLL](https://github.com/s1lentq/ReGameDLL_CS) ([5.7.0.330](http://nexus.rehlds.org/nexus/content/repositories/regamedll-dev/regamedll/regamedll/5.7.0.330-dev/regamedll-5.7.0.330-dev.zip))
+- [AMX Mod X](https://github.com/alliedmodders/amxmodx) ([1.9.0.5249](https://www.amxmodx.org/amxxdrop/1.9/amxmodx-1.9.0-git5249-base-linux.tar.gz))
+- [ReHLDS](https://github.com/dreamstalker/rehlds/) ([3.4.0.672](http://nexus.rehlds.org/nexus/content/repositories/rehlds-dev/rehlds/rehlds/3.4.0.672-dev/rehlds-3.4.0.672-dev.zip))
+- [ReGameDLL](https://github.com/s1lentq/ReGameDLL_CS) ([5.7.0.363](http://nexus.rehlds.org/nexus/content/repositories/regamedll-dev/regamedll/regamedll/5.7.0.363-dev/regamedll-5.7.0.363-dev.zip))
 - [Reunion](http://www.dedicated-server.ru/vbb/showthread.php?t=26486) ([0.1.0.133](http://www.dedicated-server.ru/vbb/attachment.php?attachmentid=10962&d=1518347544))
 - [Metamod-r](https://github.com/theAsmodai/metamod-r) ([1.3.0.128](https://github.com/theAsmodai/metamod-r/releases/download/1.3.128/metamod_1.3.0.128.zip))
 - [VoiceTranscoder](https://cs.rin.ru/forum/viewtopic.php?f=10&t=63814) ([2017 RC3](https://c-s.net.ua/forum/ipb.html?act=attach&type=post&id=45056))
-- [Reapi](http://www.dedicated-server.ru/vbb/showthread.php?t=26904) ([5.8.0.165](http://teamcity.rehlds.org/repository/download/Reapi_Publish/16138:id/reapi_5.8.0.165-dev.zip))
+- [Reapi](http://www.dedicated-server.ru/vbb/showthread.php?t=26904) ([5.8.0.171](http://teamcity.rehlds.org/repository/download/Reapi_Publish/16138:id/reapi_5.8.0.171-dev.zip))
 
 ### Optional (disabled by default)
 
