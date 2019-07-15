@@ -5,7 +5,7 @@ Base pack for Counter-Strike 1.6 servers with latest AMX Mod X, ReHLDS, ReGameDL
 It is dedicated for Linux based servers.
 
 ### Instalation
-1. Download latest [release](https://github.com/TheDoctor0/BasePack/releases/download/latest/base_pack.zip).
+1. Download **base_pack.zip** from latest [release](https://github.com/TheDoctor0/BasePack/releases/latest/).
 2. Upload all files to your server.
 3. Change *SteamIdHashSalt* to random generated string on the line **98** in **reunion.cfg**.
 
