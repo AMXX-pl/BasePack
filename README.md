@@ -13,7 +13,7 @@ It is dedicated for Linux based servers.
 
 ### Main
 - [AMX Mod X](https://github.com/alliedmodders/amxmodx) ([1.9.0.5249](https://www.amxmodx.org/amxxdrop/1.9/amxmodx-1.9.0-git5249-base-linux.tar.gz))
-- [ReHLDS](https://github.com/dreamstalker/rehlds/) ([3.4.0.672](http://nexus.rehlds.org/nexus/content/repositories/rehlds-dev/rehlds/rehlds/3.4.0.672-dev/rehlds-3.4.0.672-dev.zip))
+- [ReHLDS](https://github.com/dreamstalker/rehlds/) ([3.4.0.685](http://nexus.rehlds.org/nexus/content/repositories/rehlds-dev/rehlds/rehlds/3.4.0.685-dev/rehlds-3.4.0.685-dev.zip))
 - [ReGameDLL](https://github.com/s1lentq/ReGameDLL_CS) ([5.9.0.387](http://nexus.rehlds.org/nexus/content/repositories/regamedll-dev/regamedll/regamedll/5.7.0.387-dev/regamedll-5.7.0.387-dev.zip))
 - [Reunion](http://www.dedicated-server.ru/vbb/showthread.php?t=26486) ([0.1.0.135](http://www.dedicated-server.ru/vbb/attachment.php?attachmentid=11078&d=1565479615))
 - [Metamod-r](https://github.com/theAsmodai/metamod-r) ([1.3.0.128](https://github.com/theAsmodai/metamod-r/releases/download/1.3.128/metamod_1.3.0.128.zip))
