@@ -13,12 +13,12 @@ It is dedicated for Linux based servers.
 
 ### Main
 - [AMX Mod X](https://github.com/alliedmodders/amxmodx) ([1.9.0.5249](https://www.amxmodx.org/amxxdrop/1.9/amxmodx-1.9.0-git5249-base-linux.tar.gz))
-- [ReHLDS](https://github.com/dreamstalker/rehlds/) ([3.4.0.685](http://nexus.rehlds.org/nexus/content/repositories/rehlds-dev/rehlds/rehlds/3.4.0.685-dev/rehlds-3.4.0.685-dev.zip))
-- [ReGameDLL](https://github.com/s1lentq/ReGameDLL_CS) ([5.9.0.421](http://teamcity.rehlds.org/repository/download/ReGameDLL_Publish/21025:id/regamedll-dist-5.11.0.421-dev.zip))
+- [ReHLDS](https://github.com/dreamstalker/rehlds/) ([3.7.0.692](http://teamcity.rehlds.org/repository/download/Rehlds_Publish/20333:id/rehlds-dist-3.7.0.692-dev.zip))
+- [ReGameDLL](https://github.com/s1lentq/ReGameDLL_CS) ([5.11.0.421](http://teamcity.rehlds.org/repository/download/ReGameDLL_Publish/21025:id/regamedll-dist-5.11.0.421-dev.zip))
 - [Reunion](http://www.dedicated-server.ru/vbb/showthread.php?t=26486) ([0.1.0.135](http://www.dedicated-server.ru/vbb/attachment.php?attachmentid=11078&d=1565479615))
 - [Metamod-r](https://github.com/theAsmodai/metamod-r) ([1.3.0.128](https://github.com/theAsmodai/metamod-r/releases/download/1.3.128/metamod_1.3.0.128.zip))
 - [VoiceTranscoder](https://cs.rin.ru/forum/viewtopic.php?f=10&t=63814) ([2017 RC3](https://c-s.net.ua/forum/ipb.html?act=attach&type=post&id=45056))
-- [Reapi](http://www.dedicated-server.ru/vbb/showthread.php?t=26904) ([5.8.0.188](http://teamcity.rehlds.org/repository/download/Reapi_Publish/19686:id/reapi_5.10.0.188-dev.zip))
+- [Reapi](http://www.dedicated-server.ru/vbb/showthread.php?t=26904) ([5.10.0.188](http://teamcity.rehlds.org/repository/download/Reapi_Publish/19686:id/reapi_5.10.0.188-dev.zip))
 
 ### Optional (disabled by default)
 
