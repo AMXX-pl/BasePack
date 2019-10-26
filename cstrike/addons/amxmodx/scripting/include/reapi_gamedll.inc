@@ -590,11 +590,12 @@ native rg_set_user_armor(const index, armorvalue, ArmorType:armortype);
 * @param team           Team id
 * @param model          Internal model, use MODEL_AUTO for a random appearance or MODEL_UNASSIGNED to not update it
 *
-* @param send_teaminfo  If true, a TeamInfo message will be sent
+* @param send_teaminfo          If true, a TeamInfo message will be sent
+* @param check_win_conditions   If true, a CheckWinConditions will be call
 *
 * @return               1 on success, 0 otherwise
 */
-native rg_set_user_team(const index, {TeamName,_}:team, {ModelName,_}:model = MODEL_AUTO, const bool:send_teaminfo = true);
+native rg_set_user_team(const index, {TeamName,_}:team, {ModelName,_}:model = MODEL_AUTO, const bool:send_teaminfo = true, const bool:check_win_conditions = false);
 
 /*
 * Sets the client's player model.
@@ -836,3 +837,29 @@ native rg_get_iteminfo(const ent, ItemInfo:type, any:...);
 * @return                      true if prints, false otherwise
 */
 native bool:rg_hint_message(const index, const message[], Float:duration = 6.0, bool:bDisplayIfPlayerDead = false, bool:bOverride = false);
+
+/*
+* Instantly restart round.
+*
+* @noreturn
+*/
+native rg_restart_round();
+
+/*
+* Instantly check win conditions.
+*
+* @noreturn
+*/
+native rg_check_win_conditions();
+
+/*
+* Instantly initialize player counts.
+*
+* @param num_alive_terrorist   Count alive terrorists
+* @param num_alive_ct          Count alive counter-terrorists
+* @param num_dead_terrorist    Count dead terrorists
+* @param num_dead_ct           Count dead counter-terrorists
+*
+* @noreturn
+*/
+native rg_initialize_player_counts(&num_alive_terrorist = 0, &num_alive_ct = 0, &num_dead_terrorist = 0, &num_dead_ct = 0);
