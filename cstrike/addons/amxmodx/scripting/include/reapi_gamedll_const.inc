@@ -761,6 +761,47 @@ enum GamedllFunc_CBasePlayer
 	* Params:           (const this)
 	*/
 	RG_CBasePlayer_UseEmpty,
+	
+	/*
+	* Description:      Called when a idle player is removed from server.
+	* Return type:      void
+	* Params:           (const this, const reason[])
+	*/
+	RG_CBasePlayer_DropIdlePlayer,	
+};
+
+/**
+* GamedllFunc CBasePlayer
+*/
+enum GamedllFunc_CBasePlayerWeapon
+{
+	/*
+	* Description:      -
+	* Return type:      BOOL
+	* Params:           (const this)
+	*/
+	RG_CBasePlayerWeapon_CanDeploy = BEGIN_FUNC_REGION(weapon),
+
+	/*
+	* Description:      -
+	* Return type:      BOOL
+	* Params:           (const this, szViewModel[], szWeaponModel[], iAnim, szAnimExt[], skiplocal)
+	*/
+	RG_CBasePlayerWeapon_DefaultDeploy,
+
+	/*
+	* Description:      -
+	* Return type:      int
+	* Params:           (const this, iClipSize, iAnim, Float:fDelay)
+	*/
+	RG_CBasePlayerWeapon_DefaultReload,
+
+	/*
+	* Description:      -
+	* Return type:      bool
+	* Params:           (const this, iAnim, iStartAnim, Float:fDelay, Float:fStartDelay, const pszReloadSound1[], const pszReloadSound2[])
+	*/
+	RG_CBasePlayerWeapon_DefaultShotgunReload,
 };
 
 /**
@@ -4440,6 +4481,30 @@ enum CCSPlayer_Members
 	* Set params:       set_member(index, member, Float:value);
 	*/
 	m_flSpawnProtectionEndTime,
+	
+	/*
+	* Description:      -
+	* Member type:      class Vector
+	* Get params:       get_member(index, member, Float:output[3]);
+	* Set params:       set_member(index, member, Float:dest[3]);
+	*/
+	m_vecOldvAngle,
+
+	/*
+	* Description:      -
+	* Member type:      int
+	* Get params:       get_member(index, member);
+	* Set params:       set_member(index, member, value);
+	*/
+	m_iWeaponInfiniteAmmo,
+
+	/*
+	* Description:      -
+	* Member type:      int
+	* Get params:       get_member(index, member);
+	* Set params:       set_member(index, member, value);
+	*/
+	m_iWeaponInfiniteIds,
 };
 
 /**
