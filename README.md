@@ -14,7 +14,7 @@ It is dedicated for Linux based servers.
 ### Main
 - [AMX Mod X](https://www.amxmodx.org/downloads-new.php?branch=master&all=1) ([1.10.0.5399](https://www.amxmodx.org/amxxdrop/1.10/amxmodx-1.10.0-git5399-base-linux.tar.gz))
 - [ReHLDS](https://github.com/dreamstalker/rehlds/) ([3.7.0.696](https://github.com/dreamstalker/rehlds/releases/download/3.7.0.696/rehlds-dist-3.7.0.696-dev.zip))
-- [ReGameDLL](https://github.com/s1lentq/ReGameDLL_CS) ([5.14.0.458](https://github.com/s1lentq/ReGameDLL_CS/releases/download/5.14.0.458/regamedll-dist-5.14.0.458-dev.zip))
+- [ReGameDLL](https://github.com/s1lentq/ReGameDLL_CS) ([5.17.0.466](https://github.com/s1lentq/ReGameDLL_CS/releases/download/5.17.0.466/regamedll-dist-5.17.0.466-dev.zip))
 - [Reunion](http://www.dedicated-server.ru/vbb/showthread.php?t=26486) ([0.1.0.135](http://www.dedicated-server.ru/vbb/attachment.php?attachmentid=11078&d=1565479615))
 - [Metamod-r](https://github.com/theAsmodai/metamod-r) ([1.3.0.128](https://github.com/theAsmodai/metamod-r/releases/download/1.3.128/metamod_1.3.0.128.zip))
 - [VoiceTranscoder](https://cs.rin.ru/forum/viewtopic.php?f=10&t=63814) ([2017 RC5](https://github.com/WPMGPRoSToTeMa/VoiceTranscoder/releases/download/v2017rc5/VoiceTranscoder_2017RC5.zip))
