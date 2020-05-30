@@ -18,7 +18,7 @@ It is dedicated for Linux based servers.
 - [Reunion](http://www.dedicated-server.ru/vbb/showthread.php?t=26486) ([0.1.0.135](http://www.dedicated-server.ru/vbb/attachment.php?attachmentid=11078&d=1565479615))
 - [Metamod-r](https://github.com/theAsmodai/metamod-r) ([1.3.0.128](https://github.com/theAsmodai/metamod-r/releases/download/1.3.128/metamod_1.3.0.128.zip))
 - [VoiceTranscoder](https://cs.rin.ru/forum/viewtopic.php?f=10&t=63814) ([2017 RC5](https://github.com/WPMGPRoSToTeMa/VoiceTranscoder/releases/download/v2017rc5/VoiceTranscoder_2017RC5.zip))
-- [Reapi](http://www.dedicated-server.ru/vbb/showthread.php?t=26904) ([5.10.0.192](http://teamcity.rehlds.org/repository/download/Reapi_Publish/21621:id/reapi_5.12.0.192-dev.zip))
+- [Reapi](https://github.com/s1lentq/reapi) ([5.14.0.195](https://github.com/s1lentq/reapi/releases/download/5.14.0.195/reapi_5.14.0.195-dev.zip))
 
 ### Optional (disabled by default)
 

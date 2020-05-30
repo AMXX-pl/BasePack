@@ -382,6 +382,19 @@ enum GamedllFunc
 	* Params:           (Float:vecSrc[3], Float:vecEnd[3], index, entity)
 	*/
 	RG_IsPenetrableEntity,
+
+	/*
+	* Description:      -
+	* Return type:      CGib * (Entity index of gib)
+	* Params:           (pevVictim)
+	*/
+	RG_SpawnHeadGib,
+
+	/*
+	* Description:      -
+	* Params:           (int cGibs, int human)
+	*/
+	RG_SpawnRandomGibs,
 };
 
 /**
@@ -802,6 +815,30 @@ enum GamedllFunc_CBasePlayerWeapon
 	* Params:           (const this, iAnim, iStartAnim, Float:fDelay, Float:fStartDelay, const pszReloadSound1[], const pszReloadSound2[])
 	*/
 	RG_CBasePlayerWeapon_DefaultShotgunReload,
+};
+
+/**
+* GamedllFunc CGib
+*/
+enum GamedllFunc_CGib
+{
+	/*
+	* Description:      -
+	* Params:           (const this, const szGibModel[])
+	*/
+	RG_CGib_Spawn = BEGIN_FUNC_REGION(gib),
+
+	/*
+	* Description:      -
+	* Params:           (const this, pOther)
+	*/
+	RG_CGib_BounceGibTouch,
+
+	/*
+	* Description:      -
+	* Params:           (const this)
+	*/
+	RG_CGib_WaitTillLand,
 };
 
 /**
@@ -2541,7 +2578,8 @@ enum CBasePlayer_Members
 	m_iMapVote,
 
 	/*
-	* Description:      -
+	* Description:      The player can't shoot for freezetime period or during defuse bomb
+	* @note             This member isn't flexible, you can't override it for other behavior, so for this purpose use m_bCanShootOverride
 	* Member type:      bool
 	* Get params:       get_member(index, member);
 	* Set params:       set_member(index, member, bool:value);
@@ -4505,6 +4543,14 @@ enum CCSPlayer_Members
 	* Set params:       set_member(index, member, value);
 	*/
 	m_iWeaponInfiniteIds,
+
+	/*
+	* Description:      Forcing override for CBasePlayer::m_bCanShoot
+	* Member type:      bool
+	* Get params:       get_member(index, member);
+	* Set params:       set_member(index, member, bool:value);
+	*/
+	m_bCanShootOverride,
 };
 
 /**
@@ -5893,4 +5939,42 @@ enum CCSPlayerWeapon_Members
 	* Set params:       set_member(index, member, Float:value);
 	*/
 	m_Weapon_flBaseDamage,
+};
+
+/**
+* CGib Members
+*/
+enum CGib_Members
+{
+	/*
+	* Description:      -
+	* Member type:      int
+	* Get params:       get_member(index, member);
+	* Set params:       set_member(index, member, value);
+	*/
+	m_Gib_bloodColor = BEGIN_MEMBER_REGION(gib),
+	
+	/*
+	* Description:      -
+	* Member type:      int
+	* Get params:       get_member(index, member);
+	* Set params:       set_member(index, member, value);
+	*/
+	m_Gib_cBloodDecals,
+	
+	/*
+	* Description:      -
+	* Member type:      int
+	* Get params:       get_member(index, member);
+	* Set params:       set_member(index, member, value);
+	*/
+	m_Gib_material,
+	
+	/*
+	* Description:      -
+	* Member type:      float
+	* Get params:       Float:get_member(index, member);
+	* Set params:       set_member(index, member, Float:value);
+	*/
+	m_Gib_lifeTime,
 };
