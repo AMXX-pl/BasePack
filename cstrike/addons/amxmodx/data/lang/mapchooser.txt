@@ -26,13 +26,13 @@ EXTED_MAP = Produzi mapu %s
 TIME_CHOOSE = Vreme je da se izabere sledeca map...
 
 [tr]
-CHO_FIN_EXT = Oylama bitmisdir. Su anki map %.0f dakika uzatilacakdir
-CHO_FIN_NEXT = Oylama bitmisdir. Secilen map ise %s
-CHOSE_EXT = %s Map uzatilmasini secin
-X_CHOSE_X = %s Secin %s
-CHOOSE_NEXTM = AMX diger map secimi
-EXTED_MAP = %s Map surecini uzat
-TIME_CHOOSE = Yeni map secimi baslamisdir...
+CHO_FIN_EXT = Oylama bitti. Suanki harita %.0f dakika uzatilacaktir
+CHO_FIN_NEXT = Oylama bitmistirr. Sonraki harita %s olacaktir
+CHOSE_EXT = %s haritayi uzatmayi secti
+X_CHOSE_X = %s %s secti
+CHOOSE_NEXTM = AMX Sonraki Haritayi Sec
+EXTED_MAP = %s haritasini uzat
+TIME_CHOOSE = Sonraki harita secme zamani...
 
 [fr]
 CHO_FIN_EXT = Les choix sont termines. La carte est prolongee de %.0f minutes
@@ -136,8 +136,8 @@ TIME_CHOOSE = E timpul sa alegeti harta urmatoare...
 [hu]
 CHO_FIN_EXT = A választás véget ért. A mostani pálya még %.0f percig lesz.
 CHO_FIN_NEXT = A választás véget ért. A következő pálya a %s lesz.
-CHOSE_EXT = %s még maradni szeretne
-X_CHOSE_X = %s a %s pályára szavazott
+CHOSE_EXT = %s még maradni szeretne.
+X_CHOSE_X = %s a %s pályára szavazott.
 CHOOSE_NEXTM = Válaszd ki a következő pályát.
 EXTED_MAP = Maradjunk a %s pályán!
 TIME_CHOOSE = Itt az idő hogy kiválaszd a következő pályát.
