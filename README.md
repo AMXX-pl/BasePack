@@ -12,7 +12,7 @@ It is dedicated for Linux based servers.
 ## Content
 
 ### Main
-- [AMX Mod X](https://www.amxmodx.org/downloads-new.php?branch=master&all=1) ([1.10.0.5399](https://www.amxmodx.org/amxxdrop/1.10/amxmodx-1.10.0-git5399-base-linux.tar.gz))
+- [AMX Mod X](https://www.amxmodx.org/downloads-new.php?branch=master&all=1) ([1.10.0.5406](https://www.amxmodx.org/amxxdrop/1.10/amxmodx-1.10.0-git5406-base-linux.tar.gz))
 - [ReHLDS](https://github.com/dreamstalker/rehlds/) ([3.7.0.696](https://github.com/dreamstalker/rehlds/releases/download/3.7.0.696/rehlds-dist-3.7.0.696-dev.zip))
 - [ReGameDLL](https://github.com/s1lentq/ReGameDLL_CS) ([5.17.0.466](https://github.com/s1lentq/ReGameDLL_CS/releases/download/5.17.0.466/regamedll-dist-5.17.0.466-dev.zip))
 - [Reunion](http://www.dedicated-server.ru/vbb/showthread.php?t=26486) ([0.1.0.135](http://www.dedicated-server.ru/vbb/attachment.php?attachmentid=11078&d=1565479615))
