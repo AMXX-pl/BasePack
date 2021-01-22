@@ -94,6 +94,13 @@ enum members_tables_e
 #include <reapi_engine>  // @note: only for ReHLDS
 #include <reapi_gamedll> // @note: only for gamedll Counter-Strike (ReGameDLL_CS)
 
+// If you want to use s/get_member unsafe version,
+// then macro MEMBER_UNSAFE must be defined before including header reapi.inc
+#if !defined(MEMBER_UNSAFE)
+	#define set_member set_member_s
+	#define get_member get_member_s
+#endif
+
 // addons
 #include <reapi_vtc>
 #include <reapi_reunion>
@@ -191,6 +198,23 @@ native any:GetHookChainReturn(AType:type, any:...);
 * @return           Returns true if the function is successfully executed, otherwise false
 */
 native SetHookChainArg(number, AType:type, any:...);
+
+/*
+* Return call state of original API function (that are available into enum).
+* Look at the enums for parameter lists.
+*
+* @param func       The function to get state
+*
+* @return           Returns true if the original function was called, otherwise false
+*/
+native bool:IsReapiHookOriginalWasCalled({EngineFunc, GamedllFunc, GamedllFunc_CBaseAnimating, GamedllFunc_CBasePlayer, GamedllFunc_CSGameRules, GamedllFunc_CGrenade, GamedllFunc_CWeaponBox, ReCheckerFunc, GamedllFunc_CBasePlayerWeapon, GamedllFunc_CGib}:function_id);
+
+/*
+* Returns the current hookchain handle.
+*
+* @return           Returns the hook handle
+*/
+native HookChain:GetCurrentHookChainHandle();
 
 /*
 * Compares the entity to a specified classname.

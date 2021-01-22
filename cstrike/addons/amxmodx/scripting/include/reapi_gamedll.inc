@@ -121,6 +121,28 @@ native set_member(const index, any:member, any:...);
 native any:get_member(const index, any:member, any:...);
 
 /*
+* Sets a value to an entity's member.
+* Safe version, can guarantee that the present member is refers to derived class of the entity.
+*
+* @param index      Entity index
+* @param member     The specified member, look at the enums with name *_Members
+*
+* @return           1 on success.
+*/
+native set_member_s(const index, any:member, any:...);
+
+/*
+* Returns a value from an entity's member.
+* Safe version, can guarantee that the present member is refers to derived class of the entity.
+*
+* @param index      Entity index
+* @param member     The specified member, look at the enums with name *_Members
+*
+* @return           If an integer or boolean or one byte, array or everything else is passed via the 3rd argument and more, look at the argument list for the specified member
+*/
+native any:get_member_s(const index, any:member, any:...);
+
+/*
 * Sets playermove var.
 *
 * @param var        The specified playermove, look at the enum PlayerMove
@@ -658,6 +680,17 @@ native rg_transfer_c4(const index, const receiver = 0);
 native rg_instant_reload_weapons(const index, const weapon = 0);
 
 /*
+* Plant a bomb.
+*
+* @param index      Owner index or 0 for worldspawn.
+* @param origin     The origin of the bomb where it will be planted.
+* @param angles     The angles of the planted bomb.
+*
+* @return           Index of bomb entity or AMX_NULLENT (-1) otherwise
+*/
+native rg_plant_bomb(const index, Float:vecOrigin[3], Float:vecAngles[3] = {0.0,0.0,0.0});
+
+/*
 * Sets the amount of reward in the game account for all players.
 *
 * @param rules_index    Look at the enum with name RewardRules
@@ -741,9 +774,18 @@ native TeamName:rg_get_join_team_priority();
 * @param index      Client index
 * @param attacker   Attacker index
 *
-* @return           true if he can take damage, false otherwise
+* @return           true if player can take damage, false otherwise
 */
 native bool:rg_is_player_can_takedamage(const index, const attacker);
+
+/*
+* Checks whether the player can respawn.
+*
+* @param index      Client index
+*
+* @return           true if player can respawn, false otherwise
+*/
+native bool:rg_is_player_can_respawn(const index);
 
 /*
 * Gets WeaponIdType from weaponbox
