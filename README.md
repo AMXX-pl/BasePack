@@ -27,7 +27,7 @@ If you want to enabled those modules check **cstrike/addons/metamod/plugins.ini*
 - [ReAuthChecker](http://www.dedicated-server.ru/vbb/showthread.php?t=26787) ([0.1.6](http://www.dedicated-server.ru/vbb/attachment.php?attachmentid=10832&d=1488991141))
 - [ReChecker](https://www.dedicated-server.ru/vbb/showthread.php?t=26550) ([2.5](https://www.dedicated-server.ru/vbb/attachment.php?attachmentid=10926&d=1508533269))
 - [ReSemiclip](http://www.dedicated-server.ru/vbb/showthread.php?t=26898) ([2.3.9](http://www.dedicated-server.ru/vbb/attachment.php?attachmentid=10814&d=1486952325))
-- [WHBlocker](http://aghl.ru/forum/viewtopic.php?f=19&t=1704) ([1.5.696](http://aghl.ru/forum/download/file.php?id=4272&sid=4c75c9b221b1bd9a1e35d1eb46544e6b))
+- [WHBlocker](https://dev-cs.ru/resources/76/) ([1.5.697](https://dev-cs.ru/resources/76/download))
 
 ## Credits
 
