@@ -53,6 +53,48 @@ enum EngineFunc
 	* Params:       (const client, buffer, const receiver)
 	*/
 	RH_SV_WriteFullClientUpdate,
+
+	/*
+	* Description:  -
+	* Params:       (const classname[])
+	*/
+	RH_GetEntityInit,
+
+	/*
+	* Description:  Called after processing a client connection request.
+	* Params:       (const client)
+	*/
+	RH_ClientConnected,
+
+	/*
+	* Description:  Called when processing a 'connect' client connectionless packet.
+	* Params:       ()
+	*/
+	RH_SV_ConnectClient,
+
+	/*
+	* Description:  Called when client it's in the scoreboard
+	* Params:       (const this)
+	*/
+	RH_SV_EmitPings,
+	/*
+	* Description:  Called when an entity is created.
+	* Return type:  Edict * (Entity index)
+	* Params:       ()
+	*/
+	RH_ED_Alloc,
+
+	/*
+	* Description:  Called when an entity is removed (freed from server).
+	* Params:       (const entity)
+	*/
+	RH_ED_Free,
+
+	/*
+	* Description:  -
+	* Params:       (const string[])
+	*/
+	RH_Con_Printf,
 };
 
 /**
@@ -702,33 +744,33 @@ enum EntVars
 
 	/*
 	* Description:      -
-	* Member type:      int
-	* Get params:       get_entvar(index, EntVars:var);
-	* Set params:       set_entvar(index, EntVars:var, value);
+	* Member type:      float
+	* Get params:       Float:get_entvar(index, EntVars:var);
+	* Set params:       set_entvar(index, EntVars:var, Float:value);
 	*/
 	var_dmg_take,
 
 	/*
 	* Description:      -
-	* Member type:      int
-	* Get params:       get_entvar(index, EntVars:var);
-	* Set params:       set_entvar(index, EntVars:var, value);
+	* Member type:      float
+	* Get params:       Float:get_entvar(index, EntVars:var);
+	* Set params:       set_entvar(index, EntVars:var, Float:value);
 	*/
 	var_dmg_save,
 
 	/*
 	* Description:      -
-	* Member type:      int
-	* Get params:       get_entvar(index, EntVars:var);
-	* Set params:       set_entvar(index, EntVars:var, value);
+	* Member type:      float
+	* Get params:       Float:get_entvar(index, EntVars:var);
+	* Set params:       set_entvar(index, EntVars:var, Float:value);
 	*/
 	var_dmg,
 
 	/*
 	* Description:      -
-	* Member type:      int
-	* Get params:       get_entvar(index, EntVars:var);
-	* Set params:       set_entvar(index, EntVars:var, value);
+	* Member type:      float
+	* Get params:       Float:get_entvar(index, EntVars:var);
+	* Set params:       set_entvar(index, EntVars:var, Float:value);
 	*/
 	var_dmgtime,
 

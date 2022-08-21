@@ -291,7 +291,7 @@
 #define SF_WALL_TOOGLE_NOTSOLID         0x0008
 
 /**
-* func_converyor
+* func_conveyor
 */
 #define SF_CONVEYOR_VISUAL              0x0001
 #define SF_CONVEYOR_NOTSOLID            0x0002
@@ -1321,3 +1321,40 @@ enum InfoMapBuyParam
 #define USE_ON                          1
 #define USE_SET                         2
 #define USE_TOGGLE                      3
+
+/**
+* For CBasePlayer:m_iWeaponVolume
+*/
+#define LOUD_GUN_VOLUME                 1000
+#define NORMAL_GUN_VOLUME               600
+#define QUIET_GUN_VOLUME                200
+#define BIG_EXPLOSION_VOLUME            2048
+#define NORMAL_EXPLOSION_VOLUME         1024
+#define SMALL_EXPLOSION_VOLUME          512
+
+/**
+* For CBasePlayer:m_iWeaponFlash
+*/
+#define BRIGHT_GUN_FLASH                512
+#define NORMAL_GUN_FLASH                256
+#define DIM_GUN_FLASH                   128
+
+/**
+* Player zoom constants
+* For m_iFOV
+*/
+#define DEFAULT_LARGE_AWP_ZOOM            10
+#define DEFAULT_LARGE_OTHER_SNIPERS_ZOOM  15
+#define DEFAULT_SMALL_SNIPERS_ZOOM        40
+#define DEFAULT_AUG_SG552_ZOOM            55
+#define DEFAULT_NO_ZOOM                   90
+
+/**
+* Scoreboard attribute constants
+* For "ScoreAttrib" game event
+*/
+#define SCORE_STATUS_NONE                 0
+#define SCORE_STATUS_DEAD                 (1<<0)
+#define SCORE_STATUS_BOMB                 (1<<1)
+#define SCORE_STATUS_VIP                  (1<<2)
+#define SCORE_STATUS_DEFKIT               (1<<3)
