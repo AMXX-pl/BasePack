@@ -12,7 +12,7 @@ It is dedicated for Linux based servers.
 ## Content
 
 ### Main
-- [AMX Mod X](https://www.amxmodx.org/downloads-new.php?branch=master&all=1) ([1.10.0.5435](https://www.amxmodx.org/amxxdrop/1.10/amxmodx-1.10.0-git5435-base-linux.tar.gz))
+- [AMX Mod X](https://www.amxmodx.org/downloads-new.php?branch=master&all=1) ([1.10.0.5461](https://www.amxmodx.org/amxxdrop/1.10/amxmodx-1.10.0-git5461-base-linux.tar.gz))
 - [ReHLDS](https://github.com/dreamstalker/rehlds/) ([3.10.0.761](https://github.com/dreamstalker/rehlds/releases/download/v3.10.0.761/rehlds-bin-3.10.0.761.zip))
 - [ReGameDLL](https://github.com/s1lentq/ReGameDLL_CS) ([5.20.0.525](https://github.com/s1lentq/ReGameDLL_CS/releases/download/5.20.0.525/regamedll-bin-5.20.0.525.zip))
 - [Reunion](https://cs.rin.ru/forum/viewtopic.php?f=29&t=69235) ([0.1.0.137](https://cs.rin.ru/forum/download/file.php?id=78455))
@@ -24,9 +24,9 @@ It is dedicated for Linux based servers.
 
 If you want to enabled those modules check **cstrike/addons/metamod/plugins.ini**.
 
-- [ReAuthChecker](http://www.dedicated-server.ru/vbb/showthread.php?t=26787) ([0.1.6](http://www.dedicated-server.ru/vbb/attachment.php?attachmentid=10832&d=1488991141))
+- [ReAuthChecker](https://dev-cs.ru/resources/63/) ([0.1.6](https://dev-cs.ru/resources/63/download))
 - [ReChecker](https://dev-cs.ru/resources/72/) ([2.7](https://dev-cs.ru/resources/72/download))
-- [ReSemiclip](http://www.dedicated-server.ru/vbb/showthread.php?t=26898) ([2.3.9](http://www.dedicated-server.ru/vbb/attachment.php?attachmentid=10814&d=1486952325))
+- [ReSemiclip](https://dev-cs.ru/resources/71/) ([2.3.9](https://dev-cs.ru/resources/71/download))
 - [WHBlocker](https://dev-cs.ru/resources/76/) ([1.5.697](https://dev-cs.ru/resources/76/download))
 
 ## Credits
