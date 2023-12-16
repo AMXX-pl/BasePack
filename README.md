@@ -14,9 +14,9 @@ It is dedicated for Linux based servers.
 ### Main
 - [AMX Mod X](https://www.amxmodx.org/downloads-new.php?branch=master&all=1) ([1.10.0.5467](https://www.amxmodx.org/amxxdrop/1.10/amxmodx-1.10.0-git5467-base-linux.tar.gz))
 - [ReHLDS](https://github.com/dreamstalker/rehlds/) ([3.13.0.788](https://github.com/dreamstalker/rehlds/releases/download/3.13.0.788/rehlds-bin-3.13.0.788.zip))
-- [ReGameDLL](https://github.com/s1lentq/ReGameDLL_CS) ([5.21.0.556](https://github.com/s1lentq/ReGameDLL_CS/releases/download/5.21.0.556/regamedll-bin-5.21.0.556.zip))
+- [ReGameDLL](https://github.com/s1lentq/ReGameDLL_CS) ([5.22.0.593](https://github.com/s1lentq/ReGameDLL_CS/releases/download/5.22.0.593/regamedll-bin-5.22.0.593.zip))
 - [Reunion](https://cs.rin.ru/forum/viewtopic.php?f=29&t=69235) ([0.1.0.137](https://cs.rin.ru/forum/download/file.php?id=78455))
-- [Metamod-r](https://github.com/theAsmodai/metamod-r) ([1.3.0.131](https://github.com/theAsmodai/metamod-r/releases/download/1.3.0.131/metamod-bin-1.3.0.131.zip))
+- [Metamod-r](https://github.com/theAsmodai/metamod-r) ([1.3.0.138](https://github.com/theAsmodai/metamod-r/releases/download/1.3.0.138/metamod-bin-1.3.0.138.zip))
 - [VoiceTranscoder](https://github.com/WPMGPRoSToTeMa/VoiceTranscoder) ([2017 RC5](https://github.com/WPMGPRoSToTeMa/VoiceTranscoder/releases/download/v2017rc5/VoiceTranscoder_2017RC5.zip))
 - [Reapi](https://github.com/s1lentq/reapi) ([5.21.0.252](https://github.com/s1lentq/reapi/releases/download/5.21.0.252/reapi-bin-5.21.0.252.zip))
 
